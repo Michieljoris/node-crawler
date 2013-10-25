@@ -26,6 +26,54 @@ test("inline html", function() {
 
 });
 
+test("inline html callback", function() {
+    expect( 2 );
+
+    stop();
+
+    var c = new Crawler({
+        "debug":DEBUG
+    });
+
+    c.queue({
+        "uri": "my special uri",
+        "html":function(uri, cb) {
+            setTimeout(function() {
+                cb('This is the html for ' + uri);
+            },100);
+        },
+        "callback":function(error,result,$) {
+            equal(error,null);
+            equal(result.body,"This is the html for my special uri");
+            start();
+        }
+    });
+
+});
+
+test("inline html callback with error callback", function() {
+    expect( 1 );
+
+    stop();
+
+    var c = new Crawler({
+        "debug":DEBUG
+    });
+
+    c.queue({
+        "uri": "my special uri",
+        "html":function(uri, cb) {
+            setTimeout(function() {
+                cb();
+            },100);
+        },
+        "callback":function(error,result,$) {
+            equal(error,'No html received');
+            start();
+        }
+    });
+
+});
 
 test("one request", function() {
     expect( 2 );
