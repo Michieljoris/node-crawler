@@ -1,8 +1,8 @@
 Added to this fork:
 
 * Callback for static html. Pass a function that takes a uri and an
-  callback instead of static html and call the callback with you the
-  static html, or any other kind of data
+  callback instead of static html and call the callback with the
+  static html, or any other kind of data.
 
 node-crawler
 ------------
