@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/michieljoris/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+13 verbose folder .
+14 info prepublish crawler@0.2.5
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/michieljoris/.npm/1f1177db-tar.lock
+17 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+18 verbose lock tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz /home/michieljoris/.npm/42a09c29-65933-0-7894778260961175-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+22 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+23 verbose tar unpack /home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+24 silly lockFile c74e3a88-ljoris-npm-crawler-0-2-5-package tar:///home/michieljoris/.npm/crawler/0.2.5/package
+25 verbose lock tar:///home/michieljoris/.npm/crawler/0.2.5/package /home/michieljoris/.npm/c74e3a88-ljoris-npm-crawler-0-2-5-package.lock
+26 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+27 verbose lock tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz /home/michieljoris/.npm/42a09c29-65933-0-7894778260961175-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+35 silly gunzTarPerm extractEntry .travis.yml
+36 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+37 silly gunzTarPerm extractEntry LICENSE.txt
+38 silly gunzTarPerm modified mode [ 'LICENSE.txt', 436, 420 ]
+39 silly gunzTarPerm extractEntry lib/crawler.js
+40 silly gunzTarPerm modified mode [ 'lib/crawler.js', 436, 420 ]
+41 silly gunzTarPerm extractEntry test/cache.js
+42 silly gunzTarPerm modified mode [ 'test/cache.js', 436, 420 ]
+43 silly gunzTarPerm extractEntry test/mockserver.js
+44 silly gunzTarPerm modified mode [ 'test/mockserver.js', 436, 420 ]
+45 silly gunzTarPerm extractEntry test/testrunner.js
+46 silly gunzTarPerm modified mode [ 'test/testrunner.js', 436, 420 ]
+47 silly gunzTarPerm extractEntry test/mockfiles/gzipped/test-gzip.html
+48 silly gunzTarPerm modified mode [ 'test/mockfiles/gzipped/test-gzip.html', 436, 420 ]
+49 silly gunzTarPerm extractEntry test/mockfiles/links1.html
+50 silly gunzTarPerm modified mode [ 'test/mockfiles/links1.html', 436, 420 ]
+51 silly gunzTarPerm extractEntry test/mockfiles/links2.html
+52 silly gunzTarPerm modified mode [ 'test/mockfiles/links2.html', 436, 420 ]
+53 silly gunzTarPerm extractEntry test/units/errors.js
+54 silly gunzTarPerm modified mode [ 'test/units/errors.js', 436, 420 ]
+55 silly gunzTarPerm extractEntry test/units/forceutf8.js
+56 silly gunzTarPerm modified mode [ 'test/units/forceutf8.js', 436, 420 ]
+57 silly gunzTarPerm extractEntry test/units/leaks.js
+58 silly gunzTarPerm modified mode [ 'test/units/leaks.js', 436, 420 ]
+59 silly gunzTarPerm extractEntry test/units/links.js
+60 silly gunzTarPerm modified mode [ 'test/units/links.js', 436, 420 ]
+61 silly gunzTarPerm extractEntry test/units/simple.js
+62 silly gunzTarPerm modified mode [ 'test/units/simple.js', 436, 420 ]
+63 silly gunzTarPerm extractEntry test/units/sizzle.js
+64 silly gunzTarPerm modified mode [ 'test/units/sizzle.js', 436, 420 ]
+65 silly gunzTarPerm extractEntry test/units/sizzle.html
+66 silly gunzTarPerm modified mode [ 'test/units/sizzle.html', 436, 420 ]
+67 silly gunzTarPerm extractEntry vendor/jquery-1.8.3.min.js
+68 silly gunzTarPerm modified mode [ 'vendor/jquery-1.8.3.min.js', 436, 420 ]
+69 silly lockFile c74e3a88-ljoris-npm-crawler-0-2-5-package tar:///home/michieljoris/.npm/crawler/0.2.5/package
+70 silly lockFile c74e3a88-ljoris-npm-crawler-0-2-5-package tar:///home/michieljoris/.npm/crawler/0.2.5/package
+71 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+72 silly lockFile 42a09c29-65933-0-7894778260961175-tmp-tgz tar:///home/michieljoris/tmp/npm-6917-I5LKOTpn/1409889465933-0.7894778260961175/tmp.tgz
+73 silly lockFile 3a52ce78- .
+74 silly lockFile 3a52ce78- .
+75 silly publish { name: 'crawler',
+75 silly publish   version: '0.2.5',
+75 silly publish   description: 'Crawler is a web spider written with Nodejs. It gives you the full power of jQuery on the server to parse a big number of pages as they are downloaded, asynchronously. Scraping should be simple and fun!',
+75 silly publish   keywords:
+75 silly publish    [ 'dom',
+75 silly publish      'javascript',
+75 silly publish      'crawling',
+75 silly publish      'spider',
+75 silly publish      'scraper',
+75 silly publish      'scraping',
+75 silly publish      'jquery' ],
+75 silly publish   maintainers:
+75 silly publish    [ { name: 'Sylvain Zimmer',
+75 silly publish        email: 'sylvain@sylvainzimmer.com',
+75 silly publish        url: 'http://sylvinus.org/' } ],
+75 silly publish   bugs: { url: 'http://github.com/sylvinus/node-crawler/issues' },
+75 silly publish   licenses:
+75 silly publish    [ { type: 'MIT',
+75 silly publish        url: 'http://github.com/sylvinus/node-crawler/blob/master/LICENSE.txt' } ],
+75 silly publish   repository:
+75 silly publish    { type: 'git',
+75 silly publish      url: 'https://github.com/sylvinus/node-crawler.git' },
+75 silly publish   dependencies:
+75 silly publish    { request: '2.21.0',
+75 silly publish      jsdom: '0.8.2',
+75 silly publish      'generic-pool': '2.0.3',
+75 silly publish      htmlparser: '1.7.6',
+75 silly publish      underscore: '1.4.4',
+75 silly publish      jschardet: '1.0.2',
+75 silly publish      'iconv-lite': '0.2.8',
+75 silly publish      iconv: '2.0.6' },
+75 silly publish   optionalDependencies: { iconv: '2.0.6' },
+75 silly publish   devDependencies: { qunit: '0.5.16', express: '2.5.x', memwatch: '0.2.2' },
+75 silly publish   scripts: { test: 'node test/testrunner.js' },
+75 silly publish   engines: [ 'node >=0.6.x' ],
+75 silly publish   directories: { lib: 'lib' },
+75 silly publish   main: './lib/crawler',
+75 silly publish   readme: 'Added to this fork:\n\n* Callback for static html. Pass a function that takes a uri and an\n  callback instead of static html and call the callback with the\n  static html, or any other kind of data.\n\nnode-crawler\n------------\n\nnode-crawler aims to be the best crawling/scraping package for Node.\n\nIt features:\n * A clean, simple API\n * server-side DOM & automatic jQuery insertion\n * Configurable pool size and retries\n * Priority of requests\n * forceUTF8 mode to let node-crawler deal for you with charset detection and conversion\n * A local cache\n\nThe argument for creating this package was made at ParisJS #2 in 2010 ( [lightning talk slides](http://www.slideshare.net/sylvinus/web-crawling-with-nodejs) )\n\nHelp & Forks welcomed!\n\nHow to install\n--------------\n\n    $ npm install crawler\n\n\nCrash course\n------------\n\n```javascript\nvar Crawler = require("crawler").Crawler;\n\nvar c = new Crawler({\n"maxConnections":10,\n\n// This will be called for each crawled page\n"callback":function(error,result,$) {\n\n    // $ is a jQuery instance scoped to the server-side DOM of the page\n    $("#content a").each(function(index,a) {\n        c.queue(a.href);\n    });\n}\n});\n\n// Queue just one URL, with default callback\nc.queue("http://joshfire.com");\n\n// Queue a list of URLs\nc.queue(["http://jamendo.com/","http://tedxparis.com"]);\n\n// Queue URLs with custom callbacks & parameters\nc.queue([{\n"uri":"http://parishackers.org/",\n"jQuery":false,\n\n// The global callback won\'t be called\n"callback":function(error,result) {\n    console.log("Grabbed",result.body.length,"bytes");\n}\n}]);\n\n// Queue some HTML code directly without grabbing (mostly for tests)\nc.queue([{\n"html":"<p>This is a <strong>test</strong></p>"\n}]);\n```\n\nOptions reference\n-----------------\n\nYou can pass these options to the Crawler() constructor if you want them to be global or as\nitems in the queue() calls if you want them to be specific to that item (overwriting global options)\n\nThis options list is a strict superset of [mikeal\'s request options](https://github.com/mikeal/request#requestoptions-callback) and will be directly passed to\nthe request() method.\n\nBasic request options:\n\n * uri: String, the URL you want to crawl\n * timeout : Number, in milliseconds        (Default 60000)\n * method, xxx: [All mikeal\'s requests options are accepted](https://github.com/mikeal/request#requestoptions-callback)\n\nCallbacks:\n\n * callback(error, result, $): A request was completed\n * onDrain(): There is no more queued requests\n\nPool options:\n\n * maxConnections: Number, Size of the worker pool (Default 10),\n * priorityRange: Number, Range of acceptable priorities starting from 0 (Default 10),\n * priority: Number, Priority of this request (Default 5),\n\nRetry options:\n\n * retries: Number of retries if the request fails (Default 3),\n * retryTimeout: Number of milliseconds to wait before retrying (Default 10000),\n\nServer-side DOM options:\n\n * jQuery: Boolean, if true creates a server-side DOM and adds jQuery (Default true)\n * jQueryUrl: String, path to the jQuery file you want to insert (Defaults to bundled jquery-1.8.1.min.js)\n * autoWindowClose: Boolean, if false you will have to close the window yourself with result.window.close(). Useful when your callback needs to continue having the window open until some async code has ran. (Default true)\n\nCharset encoding:\n\n * forceUTF8: Boolean, if true will try to detect the page charset and convert it to UTF8 if necessary. Never worry about encoding anymore! (Default false),\n\nCache:\n\n * cache: Boolean, if true stores requests in memory (Default false)\n * skipDuplicates: Boolean, if true skips URIs that were already crawled, without even calling callback() (Default false)\n\nOther:\n\n * userAgent: String, defaults to "node-crawler/[version]"\n\n\nMemory leaks\n------------\n\nWhen using timeouts, to avoid triggering [Node #3076](https://github.com/joyent/node/pull/3076) you should use Node > 0.8.14\n\nThere is now a complete memory leak test for node-crawler :)\n\n\nHow to test\n-----------\n\n    $ npm install && npm test\n\nFeel free to add more tests!\n\n[![build status](https://secure.travis-ci.org/sylvinus/node-crawler.png)](http://travis-ci.org/sylvinus/node-crawler)\n\nRough todolist\n--------------\n\n * Make Sizzle tests pass (jsdom bug? https://github.com/tmpvar/jsdom/issues#issue/81)\n * More crawling tests\n * Document the API more (+ the result object)\n * Get feedback on featureset for a 1.0 release (option for autofollowing links?)\n * Check how we can support other mimetypes than HTML\n * Option to wait for callback to finish before freeing the pool resource (via another callback like next())\n\n\nChangeLog\n---------\n\n0.2.5\n - Fix `options.encoding = null`, thanks @trantorLiu\n - Basic auth support, thanks @luap\n - Updated jsdom dependency to 0.8.2 + others, Node 0.10.x support, thanks @bkw\n - Highlight code in docs, thanks @namuol\n - Detect non-html responses\n - Proxy list support\n\n0.2.4\n - Fixed a bug with response.body being a Buffer in some cases\n - Wrapped jsdom calls in a try/catch to isolate us from crashes\n\n0.2.3\n - Added gzip support\n - Support for userAgent option\n - Added fallback on iconv-lite and marked iconv as optional dependency\n\n0.2.2\n - Fix relative link bug, all a.href should be absolute when crawling a remote URL\n - Updated default jQuery to 1.8.3, request to 2.12.0, genericpool to 2.0.2\n - Fixed memory leak by adding the autoWindowClose option\n - Added memory leak test\n\n0.2.1\n - Updated jsdom to 0.2.19\n\n0.2.0\n - Updated code & dependencies for node 0.6/0.8, cleaned package.json\n - Added a forceUTF8 mode\n - Added real unit tests & travis-ci\n - Added some docs!\n - Added onDrain()\n - Code refactor\n - [BACKWARD-INCOMPATIBLE] Timeout parameters now in milliseconds (weren\'t documented)\n\n0.1.0\n - Updated dependencies, notably node 0.4.x\n - Fixes jQuery being redownloaded at each page + include it in the tree\n - Cache support\n - Retries\n - Updated priority support with new generic-pool>=1.0.4\n',
+75 silly publish   readmeFilename: 'README.md',
+75 silly publish   homepage: 'https://github.com/sylvinus/node-crawler',
+75 silly publish   _id: 'crawler@0.2.5',
+75 silly publish   _shasum: 'f07dbd5d4f8ac8a601489727609c4a1859d292f0',
+75 silly publish   _from: '.' }
+76 verbose url raw crawler
+77 verbose url resolving [ 'https://registry.npmjs.org/', './crawler' ]
+78 verbose url resolved https://registry.npmjs.org/crawler
+79 info trying registry request attempt 1 at 13:57:46
+80 http PUT https://registry.npmjs.org/crawler
+81 http 403 https://registry.npmjs.org/crawler
+82 verbose headers { date: 'Fri, 05 Sep 2014 03:57:56 GMT',
+82 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+82 verbose headers   'content-type': 'application/json',
+82 verbose headers   'cache-control': 'max-age=60',
+82 verbose headers   'content-length': '10457',
+82 verbose headers   'accept-ranges': 'bytes',
+82 verbose headers   via: '1.1 varnish',
+82 verbose headers   'x-served-by': 'cache-syd1623-SYD',
+82 verbose headers   'x-cache': 'MISS',
+82 verbose headers   'x-cache-hits': '0',
+82 verbose headers   'x-timer': 'S1409889475.983386,VS0,VE883',
+82 verbose headers   'keep-alive': 'timeout=10, max=50',
+82 verbose headers   connection: 'Keep-Alive' }
+83 error publish Failed PUT 403
+84 error Error: forbidden cannot modify pre-existing version: 0.2.5
+84 error old={"name":"crawler","version":"0.2.5","description":"Crawler is a web spider written with Nodejs. It gives you the full power of jQuery on the server to parse a big number of pages as they are downloaded, asynchronously. Scraping should be simple and fun!","keywords":["dom","javascript","crawling","spider","scraper","scraping","jquery"],"maintainers":[{"name":"sylvinus","email":"sylvain@sylvainzimmer.com"}],"bugs":{"mail":"sylvain@sylvainzimmer.com","url":"http://github.com/sylvinus/node-crawler/issues"},"licenses":[{"type":"MIT","url":"http://github.com/sylvinus/node-crawler/blob/master/LICENSE.txt"}],"repository":{"type":"git","url":"https://github.com/sylvinus/node-crawler.git"},"dependencies":{"request":"2.21.0","jsdom":"0.8.2","generic-pool":"2.0.3","htmlparser":"1.7.6","underscore":"1.4.4","jschardet":"1.0.2","iconv-lite":"0.2.8","iconv":"2.0.6"},"optionalDependencies":{"iconv":"2.0.6"},"devDependencies":{"qunit":"0.5.16","express":"2.5.x","memwatch":"0.2.2"},"scripts":{"test":"node test/testrunner.js"},"engines":["node >=0.6.x"],"directories":{"lib":"lib"},"main":"./lib/crawler","_id":"crawler@0.2.5","dist":{"shasum":"9339d381c74eeb12aa7104af0dcd4543ec3f796b","tarball":"http://registry.npmjs.org/crawler/-/crawler-0.2.5.tgz"},"_from":".","_npmVersion":"1.2.18","_npmUser":{"name":"sylvinus","email":"sylvain@sylvainzimmer.com"}}
+84 error new={"name":"crawler","version":"0.2.5","description":"Crawler is a web spider written with Nodejs. It gives you the full power of jQuery on the server to parse a big number of pages as they are downloaded, asynchronously. Scraping should be simple and fun!","keywords":["dom","javascript","crawling","spider","scraper","scraping","jquery"],"maintainers":[{"name":"michieljoris","email":"mail@axion5.net"}],"bugs":{"url":"http://github.com/sylvinus/node-crawler/issues"},"licenses":[{"type":"MIT","url":"http://github.com/sylvinus/node-crawler/blob/master/LICENSE.txt"}],"repository":{"type":"git","url":"https://github.com/sylvinus/node-crawler.git"},"dependencies":{"request":"2.21.0","jsdom":"0.8.2","generic-pool":"2.0.3","htmlparser":"1.7.6","underscore":"1.4.4","jschardet":"1.0.2","iconv-lite":"0.2.8","iconv":"2.0.6"},"optionalDependencies":{"iconv":"2.0.6"},"devDependencies":{"qunit":"0.5.16","express":"2.5.x","memwatch":"0.2.2"},"scripts":{"test":"node test/testrunner.js"},"engines":["node >=0.6.x"],"directories":{"lib":"lib"},"main":"./lib/crawler","readme":"Added to this fork:\u000a\u000a* Callback for static html. Pass a function that takes a uri and an\u000a  callback instead of static html and call the callback with the\u000a  static html, or any other kind of data.\u000a\u000anode-crawler\u000a------------\u000a\u000anode-crawler aims to be the best crawling/scraping package for Node.\u000a\u000aIt features:\u000a * A clean, simple API\u000a * server-side DOM & automatic jQuery insertion\u000a * Configurable pool size and retries\u000a * Priority of requests\u000a * forceUTF8 mode to let node-crawler deal for you with charset detection and conversion\u000a * A local cache\u000a\u000aThe argument for creating this package was made at ParisJS #2 in 2010 ( [lightning talk slides](http://www.slideshare.net/sylvinus/web-crawling-with-nodejs) )\u000a\u000aHelp & Forks welcomed!\u000a\u000aHow to install\u000a--------------\u000a\u000a    $ npm install crawler\u000a\u000a\u000aCrash course\u000a------------\u000a\u000a```javascript\u000avar Crawler = require(\"crawler\").Crawler;\u000a\u000avar c = new Crawler({\u000a\"maxConnections\":10,\u000a\u000a// This will be called for each crawled page\u000a\"callback\":function(error,result,$) {\u000a\u000a    // $ is a jQuery instance scoped to the server-side DOM of the page\u000a    $(\"#content a\").each(function(index,a) {\u000a        c.queue(a.href);\u000a    });\u000a}\u000a});\u000a\u000a// Queue just one URL, with default callback\u000ac.queue(\"http://joshfire.com\");\u000a\u000a// Queue a list of URLs\u000ac.queue([\"http://jamendo.com/\",\"http://tedxparis.com\"]);\u000a\u000a// Queue URLs with custom callbacks & parameters\u000ac.queue([{\u000a\"uri\":\"http://parishackers.org/\",\u000a\"jQuery\":false,\u000a\u000a// The global callback won't be called\u000a\"callback\":function(error,result) {\u000a    console.log(\"Grabbed\",result.body.length,\"bytes\");\u000a}\u000a}]);\u000a\u000a// Queue some HTML code directly without grabbing (mostly for tests)\u000ac.queue([{\u000a\"html\":\"<p>This is a <strong>test</strong></p>\"\u000a}]);\u000a```\u000a\u000aOptions reference\u000a-----------------\u000a\u000aYou can pass these options to the Crawler() constructor if you want them to be global or as\u000aitems in the queue() calls if you want them to be specific to that item (overwriting global options)\u000a\u000aThis options list is a strict superset of [mikeal's request options](https://github.com/mikeal/request#requestoptions-callback) and will be directly passed to\u000athe request() method.\u000a\u000aBasic request options:\u000a\u000a * uri: String, the URL you want to crawl\u000a * timeout : Number, in milliseconds        (Default 60000)\u000a * method, xxx: [All mikeal's requests options are accepted](https://github.com/mikeal/request#requestoptions-callback)\u000a\u000aCallbacks:\u000a\u000a * callback(error, result, $): A request was completed\u000a * onDrain(): There is no more queued requests\u000a\u000aPool options:\u000a\u000a * maxConnections: Number, Size of the worker pool (Default 10),\u000a * priorityRange: Number, Range of acceptable priorities starting from 0 (Default 10),\u000a * priority: Number, Priority of this request (Default 5),\u000a\u000aRetry options:\u000a\u000a * retries: Number of retries if the request fails (Default 3),\u000a * retryTimeout: Number of milliseconds to wait before retrying (Default 10000),\u000a\u000aServer-side DOM options:\u000a\u000a * jQuery: Boolean, if true creates a server-side DOM and adds jQuery (Default true)\u000a * jQueryUrl: String, path to the jQuery file you want to insert (Defaults to bundled jquery-1.8.1.min.js)\u000a * autoWindowClose: Boolean, if false you will have to close the window yourself with result.window.close(). Useful when your callback needs to continue having the window open until some async code has ran. (Default true)\u000a\u000aCharset encoding:\u000a\u000a * forceUTF8: Boolean, if true will try to detect the page charset and convert it to UTF8 if necessary. Never worry about encoding anymore! (Default false),\u000a\u000aCache:\u000a\u000a * cache: Boolean, if true stores requests in memory (Default false)\u000a * skipDuplicates: Boolean, if true skips URIs that were already crawled, without even calling callback() (Default false)\u000a\u000aOther:\u000a\u000a * userAgent: String, defaults to \"node-crawler/[version]\"\u000a\u000a\u000aMemory leaks\u000a------------\u000a\u000aWhen using timeouts, to avoid triggering [Node #3076](https://github.com/joyent/node/pull/3076) you should use Node > 0.8.14\u000a\u000aThere is now a complete memory leak test for node-crawler :)\u000a\u000a\u000aHow to test\u000a-----------\u000a\u000a    $ npm install && npm test\u000a\u000aFeel free to add more tests!\u000a\u000a[![build status](https://secure.travis-ci.org/sylvinus/node-crawler.png)](http://travis-ci.org/sylvinus/node-crawler)\u000a\u000aRough todolist\u000a--------------\u000a\u000a * Make Sizzle tests pass (jsdom bug? https://github.com/tmpvar/jsdom/issues#issue/81)\u000a * More crawling tests\u000a * Document the API more (+ the result object)\u000a * Get feedback on featureset for a 1.0 release (option for autofollowing links?)\u000a * Check how we can support other mimetypes than HTML\u000a * Option to wait for callback to finish before freeing the pool resource (via another callback like next())\u000a\u000a\u000aChangeLog\u000a---------\u000a\u000a0.2.5\u000a - Fix `options.encoding = null`, thanks @trantorLiu\u000a - Basic auth support, thanks @luap\u000a - Updated jsdom dependency to 0.8.2 + others, Node 0.10.x support, thanks @bkw\u000a - Highlight code in docs, thanks @namuol\u000a - Detect non-html responses\u000a - Proxy list support\u000a\u000a0.2.4\u000a - Fixed a bug with response.body being a Buffer in some cases\u000a - Wrapped jsdom calls in a try/catch to isolate us from crashes\u000a\u000a0.2.3\u000a - Added gzip support\u000a - Support for userAgent option\u000a - Added fallback on iconv-lite and marked iconv as optional dependency\u000a\u000a0.2.2\u000a - Fix relative link bug, all a.href should be absolute when crawling a remote URL\u000a - Updated default jQuery to 1.8.3, request to 2.12.0, genericpool to 2.0.2\u000a - Fixed memory leak by adding the autoWindowClose option\u000a - Added memory leak test\u000a\u000a0.2.1\u000a - Updated jsdom to 0.2.19\u000a\u000a0.2.0\u000a - Updated code & dependencies for node 0.6/0.8, cleaned package.json\u000a - Added a forceUTF8 mode\u000a - Added real unit tests & travis-ci\u000a - Added some docs!\u000a - Added onDrain()\u000a - Code refactor\u000a - [BACKWARD-INCOMPATIBLE] Timeout parameters now in milliseconds (weren't documented)\u000a\u000a0.1.0\u000a - Updated dependencies, notably node 0.4.x\u000a - Fixes jQuery being redownloaded at each page + include it in the tree\u000a - Cache support\u000a - Retries\u000a - Updated priority support with new generic-pool>=1.0.4\u000a","readmeFilename":"README.md","homepage":"https://github.com/sylvinus/node-crawler","_id":"crawler@0.2.5","_shasum":"f07dbd5d4f8ac8a601489727609c4a1859d292f0","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"michieljoris","email":"mail@axion5.net"},"dist":{"shasum":"f07dbd5d4f8ac8a601489727609c4a1859d292f0","tarball":"http://registry.npmjs.org/crawler/-/crawler-0.2.5.tgz"}}: crawler
+84 error     at RegClient.<anonymous> (/media/212gig/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+84 error     at Request._callback (/media/212gig/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+84 error     at Request.self.callback (/media/212gig/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:123:22)
+84 error     at Request.EventEmitter.emit (events.js:98:17)
+84 error     at Request.<anonymous> (/media/212gig/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:893:14)
+84 error     at Request.EventEmitter.emit (events.js:117:20)
+84 error     at IncomingMessage.<anonymous> (/media/212gig/opt/node-v0.10.28-linux-x64/lib/node_modules/npm/node_modules/request/request.js:844:12)
+84 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+84 error     at _stream_readable.js:919:16
+84 error     at process._tickCallback (node.js:419:13)
+85 error If you need help, you may report this *entire* log,
+85 error including the npm and node versions, at:
+85 error     <http://github.com/npm/npm/issues>
+86 error System Linux 3.11.0-12-generic
+87 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "publish"
+88 error cwd /media/212gig/mysrc/javascript/node-crawler
+89 error node -v v0.10.28
+90 error npm -v 1.4.9
+91 verbose exit [ 1, true ]
